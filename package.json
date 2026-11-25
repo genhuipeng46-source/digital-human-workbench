@@ -1,0 +1,16 @@
+{
+  "name": "digital-human-workbench",
+  "version": "1.0.0",
+  "description": "数字人智能体开发工作台（文案提取 + DeepSeek二创 + MiniMax声音复刻与合成 + 数字人对口型 + 开拍AI一键剪辑）",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "multer": "^1.4.5-lts.1"
+  }
+}
